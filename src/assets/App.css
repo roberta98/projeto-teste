@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 5% auto;
+}
+
+form{
+  display: inline-grid;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+input, .button {
+  height: 48px;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(230, 230, 230);
+  padding: 8px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.errorMessage {
+  font-size: 12px;
+  color: red;
+  margin-top: 4px;
+}
+
+.button:disabled{
+  color:  #fff;
+  background: rgba(108, 107, 107, 0.692);
+  cursor: no-drop;
+}
+
+.button {
+  width: 50%;
+  margin: 0 auto;
+  margin-left: 25%;
+  background-color: rgb(100, 190, 88);
+  color:white;
+  font-weight: 500;
+  margin-top: 16px;
+  font-size: 20px;
+}
