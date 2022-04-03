@@ -43,16 +43,25 @@ label {
   margin-top: 4px;
 }
 
+.successMessage {
+  font-size: 16px;
+  color: rgb(100, 190, 88);
+  margin-top: 10px;
+}
+
 .button:disabled{
   color:  #fff;
   background: rgba(108, 107, 107, 0.692);
   cursor: no-drop;
 }
 
+.containerButton {
+  text-align: center;
+}
+
 .button {
   width: 50%;
   margin: 0 auto;
-  margin-left: 25%;
   background-color: rgb(100, 190, 88);
   color:white;
   font-weight: 500;
